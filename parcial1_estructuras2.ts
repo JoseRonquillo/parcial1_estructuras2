@@ -204,6 +204,10 @@ let pr4: Producto = new Producto("P004","vitapirena",2,4);
 let pr5: Producto = new Producto("P055","Vitapirena premiun",8,10);
 let pr6: Producto = new Producto("P955","Vitapirena premiun",12,25.5);
 let pr7: Producto = new Producto("P205","Aspirina",5,15.5);
+let pr8: Producto = new Producto("P289","suero",8,9.5);
+let pr9: Producto = new Producto("P085","bitaflenaco",10,115.5);
+let pr10: Producto = new Producto("P235","fjafasshf",28,30);
+let pr11: Producto = new Producto("P235","qweqwrw",500,600);
 
 tablaPr.insert(pr1);
 tablaPr.insert(pr2);
@@ -212,6 +216,10 @@ tablaPr.insert(pr4);
 tablaPr.insert(pr5);
 tablaPr.insert(pr6);
 tablaPr.insert(pr7);
+tablaPr.insert(pr8);
+tablaPr.insert(pr9);
+tablaPr.insert(pr10);
+tablaPr.insert(pr11);
 
 let codigoBS1: number = pr1.getCodigoHash();
 console.log("El producto " + tablaPr.search(codigoBS1) + " esta en la talba hash");
@@ -227,6 +235,10 @@ let codigoBS6: number = pr6.getCodigoHash();
 console.log("El producto " + tablaPr.search(codigoBS6) + " esta en la talba hash");
 let codigoBS7: number = pr7.getCodigoHash();
 console.log("El producto " + tablaPr.search(codigoBS7) + " esta en la talba hash");
+let codigoBS8: number = pr8.getCodigoHash();
+console.log("El producto " + tablaPr.search(codigoBS8) + " esta en la talba hash");
+let codigoBS10: number = pr10.getCodigoHash();
+console.log("El producto " + tablaPr.search(codigoBS10) + " esta en la talba hash");
 
 console.log("Tabla: \n");
 console.log("///////////////////////////////////////////////////////////////////////////////////\n");
